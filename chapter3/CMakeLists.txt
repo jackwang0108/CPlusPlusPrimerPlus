@@ -62,3 +62,18 @@ add_executable(
   divide
   "./divide.cpp"
 )
+
+add_executable(
+  modulus
+  "./modulus.cpp"
+)
+
+add_executable(
+  assign
+  "./assign.cpp"
+)
+
+add_executable(
+  typecast
+  "./typecast.cpp"
+)
