@@ -60,3 +60,28 @@ add_executable(
   structur
   "./structur.cpp"
 )
+
+add_executable(
+  assign_st
+  "./assign_st.cpp"
+)
+
+add_executable(
+  arrstruc
+  "./arrstruc.cpp"
+)
+
+add_executable(
+  address
+  "./address.cpp"
+)
+
+add_executable(
+  pointer
+  "./pointer.cpp"
+)
+
+add_executable(
+  init_ptr
+  "./init_ptr.cpp"
+)
