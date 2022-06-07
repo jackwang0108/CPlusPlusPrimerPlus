@@ -40,3 +40,23 @@ add_executable(
   strtype1
   "./strtype1.cpp"
 )
+
+add_executable(
+  strtype2
+  "./strtype2.cpp"
+)
+
+add_executable(
+  strtype3
+  "./strtype3.cpp"
+)
+
+add_executable(
+  strtype4
+  "./strtype4.cpp"
+)
+
+add_executable(
+  structur
+  "./structur.cpp"
+)
