@@ -85,3 +85,43 @@ add_executable(
   init_ptr
   "./init_ptr.cpp"
 )
+
+add_executable(
+  use_new
+  "./use_new.cpp"
+)
+
+add_executable(
+  arraynew
+  "./arraynew.cpp"
+)
+
+add_executable(
+  addpntrs
+  "./addpntrs.cpp"
+)
+
+add_executable(
+  ptrstr
+  "./ptrstr.cpp"
+)
+
+add_executable(
+  newstrct
+  "./newstrct.cpp"
+)
+
+add_executable(
+  delete
+  "./delete.cpp"
+)
+
+add_executable(
+  mixtypes
+  "./mixtypes.cpp"
+)
+
+add_executable(
+  choices
+  "./choices.cpp"
+)
