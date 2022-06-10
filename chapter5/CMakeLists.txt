@@ -41,3 +41,18 @@ add_executable(
   plus_one
   "./plus_one.cpp"
 )
+
+add_executable(
+  block
+  "./block.cpp"
+)
+
+add_executable(
+  forstr2
+  "./forstr2.cpp"
+)
+
+add_executable(
+  equal
+  "./equal.cpp"
+)
