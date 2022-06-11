@@ -56,3 +56,29 @@ add_executable(
   equal
   "./equal.cpp"
 )
+
+add_executable(
+  compstr1
+  "./compstr1.cpp"
+)
+
+add_executable(
+  compstr2
+  "./compstr2.cpp"
+)
+
+add_executable(
+  while
+  "./while.cpp"
+)
+
+add_executable(
+  waiting
+  "./waiting.cpp"
+)
+
+
+add_executable(
+  dowhile
+  "./dowhile.cpp"
+)
