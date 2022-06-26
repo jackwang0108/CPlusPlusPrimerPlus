@@ -82,3 +82,23 @@ add_executable(
   dowhile
   "./dowhile.cpp"
 )
+
+add_executable(
+  textin1
+  "./textin1.cpp"
+)
+
+add_executable(
+  textin2
+  "./textin2.cpp"
+)
+
+add_executable(
+  textin3
+  "./textin3.cpp"
+)
+
+add_executable(
+  nested
+  "./nested.cpp"
+)
