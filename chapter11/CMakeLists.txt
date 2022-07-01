@@ -32,3 +32,8 @@ add_executable(
     randwalk
     "./randwalk.cpp" "./vector.cpp"
 )
+
+add_executable(
+    stone
+    "./stone.cpp" "./stonewt.cpp"
+)
