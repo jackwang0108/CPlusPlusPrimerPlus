@@ -37,3 +37,8 @@ add_executable(
     stone
     "./stone.cpp" "./stonewt.cpp"
 )
+
+add_executable(
+    stone1
+    "./stone1.cpp" "./stonewt1.cpp"
+)
