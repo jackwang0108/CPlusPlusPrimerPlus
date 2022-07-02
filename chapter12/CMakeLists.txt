@@ -27,3 +27,18 @@ add_executable(
     saying2
     "./saying2.cpp" "./string1.cpp"
 )
+
+add_executable(
+    placenew1
+    "./placenew1.cpp"
+)
+
+add_executable(
+    placenew2
+    "./placenew2.cpp"
+)
+
+add_executable(
+    bank
+    "./bank.cpp" "./queue.cpp"
+)
