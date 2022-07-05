@@ -1,7 +1,9 @@
 **/bin
 **/build
 **/.vscode
+**/cmake-build-debug
 
+.idea/
 .vscode/
 .cache/
 
