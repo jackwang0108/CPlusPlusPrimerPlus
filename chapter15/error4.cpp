@@ -5,6 +5,8 @@
 
 double hmean(double a, double b);
 double gmean(double a, double b);
+// noexcpt 表示该函数不会抛出exception
+double marm() noexcept;
 
 int main(void)
 {
@@ -15,16 +17,23 @@ int main(void)
     double x, y, z;
 
     cout << "Enter two numbers: ";
-    while (cin >> x >> y){
-        try {
+    while (cin >> x >> y)
+    {
+        try
+        {
             z = hmean(x, y);
             cout << "Harmonic mean of " << x << " and " << y << " is " << z << endl;
             cout << "Geometric mean of " << x << " and " << y << " is " << gmean(x, y) << endl;
-        } catch (bad_hmean & bg) {
+            cout << "Enter next set of numbers <q to quit>: ";
+        }
+        catch (bad_hmean &bg)
+        {
             bg.mesg();
             cout << "Try again.\n";
             continue;
-        } catch (bad_gmean &hg) {
+        }
+        catch (bad_gmean &hg)
+        {
             cout << hg.mesg();
             cout << "Values used: " << hg.v1 << ", " << hg.v2 << endl;
             cout << "Sorry, you don't get to play any more.\n";
@@ -36,7 +45,7 @@ int main(void)
     return 0;
 }
 
-double heam(double a, double b)
+double hmean(double a, double b)
 {
     if (a == -b)
         throw bad_hmean(a, b);

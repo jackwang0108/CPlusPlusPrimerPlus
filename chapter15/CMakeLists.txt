@@ -42,3 +42,28 @@ add_executable(
     error4
     "./error4.cpp"
 )
+
+add_executable(
+    error5
+    "./error5.cpp"
+)
+
+add_executable(
+    newexcep
+    "./newexcep.cpp"
+)
+
+add_executable(
+    use_sales
+    "./use_sales.cpp" "./sales.cpp"
+)
+
+add_executable(
+    rtti1
+    "./rtti1.cpp"
+)
+
+add_executable(
+    constcast
+    "./constcast.cpp"
+)
