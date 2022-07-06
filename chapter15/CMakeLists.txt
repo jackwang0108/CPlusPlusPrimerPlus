@@ -37,3 +37,8 @@ add_executable(
     error3
     "./error3.cpp"
 )
+
+add_executable(
+    error4
+    "./error4.cpp"
+)
